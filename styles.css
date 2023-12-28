@@ -1,0 +1,53 @@
+body {
+    background-color: #2E2F34;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: .8rem;
+    margin: 0;
+}
+
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c9c9ca;
+    padding: 1px 5px;
+    margin-bottom: .7rem;
+}
+
+.nav-link.active {
+    color: #ffffff;
+   
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.container.home {
+    position: relative;
+}
+ 
+.bulet {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #2B2B33;
+    position: absolute;
+    /* top: 1em;
+    left: 19em; */
+    z-index: -9999;
+}
+
+.about {
+    background-color: #34353A;
+}
+
+.hero {
+    overflow: hidden;
+}
+
+.portfolio {
+    background-color: #34353A;
+}
+
+.outline {
+    box-shadow: 0px 0px 3px #ffc107, 0px 0px 7px #ffc107;
+}
